@@ -1,4 +1,4 @@
-package org.proffart.meddocs.service.core;
+package org.proffart.meddocs.service;
 
 /**
  * team ProffArt

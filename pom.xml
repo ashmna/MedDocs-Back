@@ -6,17 +6,18 @@
     <packaging>pom</packaging>
     <modules>
         <module>api</module>
-        <module>services</module>
+        <module>service</module>
         <module>dao</module>
-        <module>models</module>
+        <module>model</module>
     </modules>
 
     <properties>
         <project.version>1.0</project.version>
         <source.jdk>1.8</source.jdk>
         <target.jdk>1.8</target.jdk>
-        <spring.version>4.2.4.RELEASE</spring.version>
-        <spring.data.version>1.9.2.RELEASE</spring.data.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <spring.security.version>4.0.4.RELEASE</spring.security.version>
+        <spring.data.version>1.9.4.RELEASE</spring.data.version>
         <hibernate.version>5.0.7.Final</hibernate.version>
         <jersey.version>2.22.1</jersey.version>
     </properties>
@@ -57,7 +58,7 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.1</version>
+                    <version>3.5.1</version>
                     <configuration>
                         <source>${source.jdk}</source>
                         <target>${target.jdk}</target>

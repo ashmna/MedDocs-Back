@@ -1,6 +1,6 @@
 package org.proffart.meddocs.api.impl;
 
-import org.proffart.meddocs.api.core.User;
+import org.proffart.meddocs.api.User;
 
 /**
  * team ProffArt

@@ -1,6 +1,6 @@
 package org.proffart.meddocs.service.impl;
 
-import org.proffart.meddocs.service.core.UserService;
+import org.proffart.meddocs.service.UserService;
 
 /**
  * team ProffArt
